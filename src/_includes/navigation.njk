@@ -30,9 +30,15 @@
             <ul class="flex py-4 space-x-5 xl:space-x-8 justify-end items-center">
                 {% for link, title in links %}
                     <li>
-                        <a class="nav-link js-nav-link" href="{{ link }}">{{ title }}</a>
+                        <a class="nav-link js-nav-link" href="/{{ link }}">{{ title }}</a>
                     </li>
                 {% endfor %}
+                <li>
+                    <a class="inline-block bg-meetupRed py-2 px-5 text-white text-lg lg:text-2xl xl:text-3xl font-mono"
+                        href="https://www.meetup.com/open-sgf/events/280279439"
+                        title="2021 National Day of Civic Hacking RSVP"
+                        target="_blank">2021 NDCH RSVP</a>
+                </li>
                 <li>
                     <a
                         class="inline-block bg-blue py-2 px-5 text-white text-lg lg:text-2xl xl:text-3xl font-mono"
@@ -68,6 +74,12 @@
                     </li>
                 {% endfor %}
                 <li class="pt-14">
+                    <a class="inline-block bg-meetupRed py-2 px-5 text-white shadow-lg font-mono text-3xl sm:text-4xl"
+                        href="https://www.meetup.com/open-sgf/events/280279439"
+                        title="2021 National Day of Civic Hacking RSVP"
+                        target="_blank">2021 NDCH RSVP</a>
+                </li>
+                <li class="pt-5">
                     <a
                         class="inline-block bg-darkBlue py-2 px-5 text-white shadow-lg font-mono text-3xl sm:text-4xl"
                         href="https://www.codeforamerica.org/donate"
