@@ -16,10 +16,17 @@ export default function Home(): JSX.Element {
     const heroText = (
         <div className={styles.heroText}>
             <h1>Open SGF</h1>
-            <p>
-                We are a volunteer group of designers and developers out of Springfield, Missouri. We provide a forum
-                for local designers, and developers to tackle technical problems for our community. We meet weekly and
-                welcome all skill levels. No coding experience is necessary.
+            <p className={styles.groupDescription}>
+                We are a volunteer group of designers and developers
+                out of Springfield, Missouri. We provide a forum for
+                mobile, web, and application designers and developers
+                to tackle technical problems for our community.
+            </p>
+            <p className={styles.groupDescription}>
+                Many organizations lack the necessary funding to
+                produce quality technical solutions for their problems.
+                This group aims to close that gap by bringing people
+                together to work on these projects weekly 
             </p>
         </div>
     );

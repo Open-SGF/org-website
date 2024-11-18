@@ -23,12 +23,17 @@ export default function volunteer({ events }: { events: MeetupEvent[] }): JSX.El
     const heroText: JSX.Element = (
         <div className={styles.heroText}>
             <h1>Volunteer With Us</h1>
-            <p>
-                Open SGF, a volunteer group of designers and developers, provides a forum for local designers; mobile,
-                web, and application developers to tackle technical problems for our community. Many organizations lack
-                the necessary funding to produce quality technical solutions for their problems. This group aims to
-                close that gap by bringing people together to work on these projects weekly. We welcome all skill
-                levels, and no coding experience is necessary.
+            <p className={styles.groupDescription}>
+                We are a volunteer group of designers and developers
+                out of Springfield, Missouri. We provide a forum for
+                mobile, web, and application designers and developers
+                to tackle technical problems for our community.
+            </p>
+            <p className={styles.groupDescription}>
+                Many organizations lack the necessary funding to
+                produce quality technical solutions for their problems.
+                This group aims to close that gap by bringing people
+                together to work on these projects weekly 
             </p>
             <h2 className="p">Where We Could Use Help</h2>
             <ul>

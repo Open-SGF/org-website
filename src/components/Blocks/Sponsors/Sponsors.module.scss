@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: flex-end;
 
-    @include mq-below(mid-small) {
+    @include mq-below(small) {
         flex-direction: column;
         gap: 60px;
         align-items: center;
@@ -27,8 +27,7 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    width: 375px;
-    max-width: 100%;
+    max-width: 120%;
     border-radius: 20px;
     background-color: #e9f5ff;
     box-shadow: -2px 4px 10px rgba(19, 54, 84, 0.21);
@@ -36,6 +35,7 @@
 
     .image {
         margin-top: -48px !important;
+        height: 1rem;
     }
 
     h3 {
